@@ -26,7 +26,8 @@ Clothing Website Landing Page
 - **Google Fonts**
 
 ## 📸 Screenshot
-![capital_shop](https://github.com/user-attachments/assets/33dfb794-c5fc-4a90-a6bd-3d08487b24dd)
+![capital_shop](https://github.com/user-attachments/assets/498a3769-96cc-4297-a95a-c8739836cda6)
+
 
 
 
