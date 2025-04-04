@@ -27,5 +27,5 @@ Clothing Website Landing Page
 
 ## 📸 Screenshot
 
-![Landing Page Preview] ![Capital_Shop](https://github.com/user-attachments/assets/1654f3b1-1b1b-41e1-be90-bb5564c37405)
+![Capital_Shop](https://github.com/user-attachments/assets/1654f3b1-1b1b-41e1-be90-bb5564c37405)
 
