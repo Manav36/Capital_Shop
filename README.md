@@ -17,7 +17,7 @@ Clothing Website Landing Page
 
 ## 📌 Technologies Used
 
-- **HTML5, CSS3, JavaScript**
+- **HTML5, CSS3**
 - **Bootstrap 5**
 - **Slick Carousel**
 - **Swiper.js**
@@ -27,10 +27,5 @@ Clothing Website Landing Page
 
 ## 📸 Screenshot
 
-![Landing Page Preview](screenshot.png)
+![Landing Page Preview] ![Capital_Shop](https://github.com/user-attachments/assets/1654f3b1-1b1b-41e1-be90-bb5564c37405)
 
-## 🏗 Installation & Usage
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/shopping-website-landing.git
