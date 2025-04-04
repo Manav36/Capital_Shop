@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* For .header-top */
+.leftside ul {
+    padding: 0;
+    margin: 0;
+}
+
+.rightside ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header-top {
+    background: #fff;
+    padding: 8px 0px;
+    border-bottom: 1px solid #edeff2;
+}
+
+.leftside ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+.leftside ul li a {
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    color: #292621;
+}
+
+.rightside ul.order-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #edeff2;
+
+}
+
+.rightside ul.order-list li a {
+    color: black;
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+
+}
+
+.rightside ul.social li {
+    list-style-type: none;
+    display: inline-block;
+    /* margin-right: 15px; */
+    /* padding-right: 15px;    */
+}
+
+.rightside ul.social li a {
+    color: #74606B;
+    font-size: 14px;
+    padding-left: 14px;
+}
+
+/* For hover */
+.rightside ul.social li a:hover {
+    color: red;
+}
+
+.rightside ul.social li :hover {
+
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+/* for header-mid */
+.header-mid {
+    background: #fff;
+}
+
+.header-mid .navbar {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+}
+
+/* Logo */
+.navbar-brand img {
+    height: 50px;
+}
+
+/* Toggler Button */
+.navbar-toggler {
+    border: none;
+    background: none;
+    font-size: 25px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* Main-menu */
+.navbar-collapse ul {
+    margin: 0;
+    padding: 0;
+    gap: 35px;
+}
+
+.navbar-collapse ul li {
+    display: inline-block;
+}
+
+/* Navigation Links */
+.navbar-collapse ul li a {
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+
+}
+
+/* For Hover */
+.navbar-collapse ul li a:hover {
+    color: red;
+}
+
+/* icons */
+.header-right ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.header-right {
+    margin-top: 20px;
+}
+
+.header-right ul li {
+    list-style: none;
+    /* margin-right: 20px; */
+}
+
+.header-right ul li a {
+    color: black;
+    padding-top: 4px;
+}
+
+/* For hover in icons */
+.header-right ul li a:hover {
+    color: red;
+
+}
+
+.header-right ul li a i {
+    font-size: 25px;
+}
+
+/* Page Dropdown */
+.dropdown-menu li a {
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.dropdown-menu {
+    /* width:95px; */
+    background: #fff;
+    /* left: 0; */
+    box-shadow: 0 10px 3px rgba(0, 0, 0, 0.05);
+    padding: 17px px;
+    border-top: 2px solid red;
+    border-radius: 7px 7px 3px 3px;
+
+}
+
+/* Sale */
+.Toggler .Sale {
+    font-family: "Jost", sans-serif;
+    padding: 11px 0;
+    display: flex;
+
+}
+
+.Sale p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.browse-btn {
+    color: #CEBD9C;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.tog-nav ul li a {
+    font-family: "Jost", sans-serif;
+}
+
+/* For badge in baby collection */
+.new {
+    position: absolute;
+    background: red;
+    color: #fff;
+    /* text-align: center; */
+    border-radius: 4px;
+    font-size: 9px;
+    top: 2px;
+    /* right: 5px; */
+    padding: 1px 4px;
+    /* letter-spacing: 1px; */
+    font-weight: 500;
+}
+
+/* For badge in cart */
+.cartt {
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    width: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+
+/* For Main Part */
+/* Carousel */
+
+.carousel-bg {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators button {
+    background-color: grey !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: grey !important;
+    /* Change to your preferred color */
+    height: 100px;
+}
+
+
+/* For text in background images */
+.carousel-item {
+    position: relative;
+    text-align: center;
+}
+
+.carousel-caption {
+    position: absolute;
+}
+
+.carousel-caption h4 {
+    font-family: "Clicker Script", cursive;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 500;
+    display: block;
+}
+
+.carousel-caption h1 {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.carousel-caption .p {
+    margin-bottom: 28px;
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.carousel-caption .btn-1 {
+    font-weight: 500px;
+    border: 1px solid #292621;
+    display: inline-block;
+    padding: 15px 47px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.carousel-caption .a:hover {
+    background-color: white;
+    color: black;
+}
+
+.sec-img {
+    position: absolute;
+    right: 0;
+    width: 500px;
+
+}
+
+/* Fashion Section Part */
+.items {
+    position: relative;
+}
+
+.items .images {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.items .images::before {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    content: "";
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(41, 38, 33, 0) 0%, #292621 100%);
+    background: -webkit-linear-gradient(top, rgba(41, 38, 33, 0) 0%, #292621 100%);
+}
+
+.items .images .img {
+    transition: all .4s ease-out 0s;
+    width: 100%;
+    transform: scale(1);
+}
+
+
+.items .items-details {
+    transition: all .4s ease-out 0s;
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+    text-align: center;
+    right: 0;
+}
+
+.items-details h4 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 9px;
+}
+
+.items-details a {
+    margin-bottom: 15px;
+}
+
+/* For before feature */
+.items:hover .items-details .browse-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.items-details .browse-btn {
+    transition: all .4s ease-out 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* .browse-btn:hover + .items{
+    display: block;
+} */
+
+.browse-btn {
+    color: #CEBD9C;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Trending section */
+.latest-items {
+    padding-top: 95px;
+    /* padding-bottom: 100px; */
+    text-align: center;
+}
+
+.nav-button nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    padding-bottom: 0px;
+    position: relative;
+    border-bottom: 1px solid #edeff2;
+}
+
+.nav-button .nav-title {
+    font-size: 34px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 2px;
+}
+
+.nav-tabs .nav-link {
+    color: black;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    border: 0;
+    padding: 36px 12px;
+    padding-top: 0;
+    /* margin-right: 15px; */
+}
+
+.nav-tabs .nav-link.active {
+    color: #FF2020;
+    border-bottom: 4px solid #FF2020;
+}
+
+.nav-tabs .nav-link:hover {
+    /* border-bottom: 4px solid #FF2020; */
+    color: red;
+}
+
+
+/* arrow buttons for slick slider */
+/* .slick-prev:before, .slick-next:before {
+    opacity: 1; 
+    background-color: grey;
+} */
+
+.slick-slide{
+    margin: 0 10px;
+    text-align: center;
+    /* padding: 10px; */
+    /* outline: none; */
+}
+
+
+/* .slider {
+    margin: 20px auto;
+    width: 80%;
+} */
+
+.slick-slide img {
+    width: 100%;
+    /* border-radius: 10px; */
+}
+
+
+.card {
+    position: relative;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.card p{
+    font-family:"Jost", sans-serif; 
+    margin-top: 15px;
+}
+
+.card .new-price{
+    font-family:"Jost", sans-serif; 
+    color: #CEBD9C;
+}
+
+
+.card .cloth:hover{
+    color: red;
+}
+.card .new-price{
+    color: grey;
+}
+.card .new-price:hover{
+    color: black;
+}
+
+
+/* For .card-icons hovering*/
+.card-icons {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-icons {
+    opacity: 1;
+    color: red;
+}
+
+.card-icon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.card-icon:hover {
+    transform: scale(1.1);
+}
+
+.card-icon i {
+    font-size: 18px;
+    color: #333;
+}
+.card-icon i:hover {
+    color: red;
+}
+
+
+/* Testimonial  */
+.testimonial-area{
+    background: #f3ead8;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+/* Swiper Slider */
+.testimonial-container {
+    background: #f5eddc;
+    padding: 50px;
+    text-align: center;
+    /* border-radius: 10px; */
+}
+
+.testimonial {
+    background: #f5eddc;;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.testimonial h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+    font-family:"Jost", sans-serif; 
+    font-weight: 500;
+}
+
+.testimonial p {
+    font-family:"Jost", sans-serif; 
+    font-size: 22px;
+    color: #292621;
+    margin-bottom: 32px;
+    line-height: 1.5;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.founder-text p {
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+}
+
+.founder-text span {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+
+.founder-text{
+    margin-left: 20px;
+    text-align: left;
+}
+
+/* Swiper navigation buttons */
+/* .swiper-pagination-bullet-active {
+    background: rgba(41, 38, 33, 0.3);
+} */
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    color:rgba(41, 38, 33, 0.3);
+    font-size: 14px;
+}
+
+/* 
+.swiper {
+    width: 60%;
+    margin: auto;
+} */
+
+
+.swiper-slide{
+    /* width: 500px; */
+    padding: 0 90px;
+    margin:auto;
+}
+
+
+
+/* For Blog-Part */
+.container h2{
+    font-family: "Jost", sans-serif;
+}
+.home-blog{
+    background: #f6f6f6;
+    padding-top: 80px;
+    padding-bottom: 29px;
+}
+
+.single-blogs .blog-img{
+    margin-bottom: 25px;
+    width: 100%;
+}
+.single-blogs .blog-img img{
+    width: 100%;
+}
+
+.blog-cap span{
+    color: #74606B;
+    margin-bottom: 11px;
+    display: block;
+} 
+
+.blog-cap h5 a{
+    color: #292621;
+    font-family: "Jost", sans-serif;
+    margin-top: 0px;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 500;
+    text-decoration: none;
+} 
+.blog-cap p{
+    color: #74606B;
+    margin-bottom: 24px;
+} 
+.blog-cap .red-btn{
+    color: #292621;
+    font-weight: 600;
+    margin-bottom: 20px;
+} 
+
+/* Services-Area */
+.categories-area{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.service{
+    border-right: 1px solid #d7d8d8;
+}
+.service-icon img{
+    margin-bottom: 26px;
+    display: inline-block;
+}
+
+.service-desc h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: block;
+    font-family: "Jost", sans-serif;
+}
+.service-desc p{
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    color: #57667e;
+}
+
+/* footer */
+.footer-wrapper{
+    background: #171613;
+}
+
+.footer-padding{
+    padding-top: 63px;
+    padding-bottom: 60px;
+}
+
+.subscribe-area .subscribe-padding{
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);;
+}
+
+.subscribe-caption h3{
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+.subscribe-caption p{
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+}
+
+.subscribe-capion form input{
+    width: 76%;
+    height: 60px;
+    color: #000;
+    background: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    padding: 15px 24px;
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+}
+.subscribe-capion form .subscribe-btn{
+    width: 24%;
+    height: 60px;
+    color: #000;
+    border: 0;
+    background: red;
+    color: white;
+    padding: 13px 24px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+}
+
+.footer-social a{
+    color: #677F8B;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 23px;
+}
+
+.footer-title h4{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+}
+.footer-title ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-title ul li{
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+.footer-title ul li a{
+    color: #BBB9B5;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+
+
+}
+
+.footer-border{
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    padding-top: 39px;
+    padding-bottom: 1px;
+}
+
+.footer-bottom-area .footer-copyright p{
+    color: #BBB9B5;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+/* For responsiveness of carousel texts*/
+
+@media (min-width: 1200px) {
+    .carousel-caption {
+        width: 500px;
+    }
+
+    .swiper-slide{
+        padding: 0 90px;
+    }
+}
+
+@media (min-width: 760px) {
+    .carousel-caption {
+        width: 460px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        width: 300px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 30px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 38px;
+    }
+
+    .carousel-caption .p {
+        font-size: 12px;
+    }
+
+    .swiper-slide{
+        padding: 0 35px;
+    }
+
+    .testimonial h2 {
+        font-size: 25px;
+    }
+    
+    .testimonial p {
+        font-size: 18px;
+    }
+
+    .founder-text p {
+        font-size: 14px;
+    }
+    
+    .founder-text span {
+        font-size: 12px;
+    }
+
+    .subscribe-capion form .subscribe-btn{
+        font-size: 11px;
+    }
+}
